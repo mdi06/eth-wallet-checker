@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import fs from "fs/promises";
 
 // Sepolia network provider
-const provider = new ethers.JsonRpcProvider("https://holesky.infura.io/v3/c33033d5443f41d693d736861f457e2d");
+const provider = new ethers.JsonRpcProvider("https://holesky.infura.io/v3/<your key>");
 
 // Helper function to introduce a random delay
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
